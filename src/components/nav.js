@@ -5,7 +5,7 @@ class NavBar extends React.Component{
     return(
       <>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#"><img src={require('../static/images/faultline.jpg')} alt="Home Button" className="bannerImg"></img></a></li>
           <li><a href="#">About</a></li>
         </ul>
       </>
