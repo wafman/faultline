@@ -15,12 +15,25 @@ body {
   font-family: Comic Sans MS;
 }
 
+.bannerImg{
+  height: 50px;
+
+}
+
 //horizontal styling nav bar inspired from W3schools
 header {
+  height: 250px;
   text-align: center;
   padding: 15px;
   margin: 15px auto 30px auto;
   font-size: 30px;
+  // background-image: url("./static/images/faultline.jpg");
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  
+  background-color: #D89E84;
+  background-image: radial-gradient(#4E0C0F, #7C211A);
   ul{
     list-style-type: none;
     padding: 0px;
@@ -30,6 +43,7 @@ header {
     li {
       // display: inline;
       float: left;
+      border-right: 1px solid #bbb;
       a {
         text-decoration: none;
         color: white;
