@@ -4,10 +4,10 @@ import NavBar from './nav.js';
 class Header extends React.Component{
   render(){
     return(
-      <>
-        <img src="#" alt="banner image here"></img>  
-        <header><NavBar /></header>
-      </>
+      <header>
+        {/* <img src={require('../static/images/faultline.jpg')} alt="banner here" className="bannerImg"></img>   */}
+        <NavBar />
+      </header>
     )
   }
 }
