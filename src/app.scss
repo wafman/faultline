@@ -1,3 +1,51 @@
+/*
+color pallette generator on falutline image gives these colors to work with:
+
+Crimson- #D21710
+Sadle Brown: #4E0C0F
+Burly Wood: #D89E84
+Sadle Brown: #7C211A
+Sadle Brown: #190509
+
+*/
+
 body {
-  background-color: blue;
+  background-color: #190509;
+  color: #7C211A;
+  font-family: Comic Sans MS;
 }
+
+//horizontal styling nav bar inspired from W3schools
+header {
+  text-align: center;
+  padding: 15px;
+  margin: 15px auto 30px auto;
+  font-size: 30px;
+  ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #333;
+    li {
+      // display: inline;
+      float: left;
+      a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        display: block;
+        padding: 8px;
+        padding: 14px 16px;
+        &:hover{
+          background-color: #111;
+        }
+      }
+    }
+  }
+}
+
+main {
+  margin: auto;
+}
+
