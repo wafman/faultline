@@ -1,12 +1,19 @@
 import React from 'react';
-import NavBar from './nav.js';
+
 
 class Header extends React.Component{
   render(){
     return(
       <header>
-        {/* <img src={require('../static/images/faultline.jpg')} alt="banner here" className="bannerImg"></img>   */}
-        <NavBar />
+        <ul>
+          <li><a href="#"><img src={require('../static/images/faultline.jpg')} alt="Home Button" className="bannerImg"></img></a></li>
+          <li className="farSide"><a href="#">About</a></li> 
+          <li className="farSide"><a href="#">Media</a></li>
+        </ul>
+        {/* <ul >
+          
+        </ul>  */}
+        {/* <NavBar /> */}
       </header>
     )
   }
