@@ -22,19 +22,22 @@ body {
 
 //horizontal styling nav bar inspired from W3schools
 header {
-  height: 250px;
+  width: 100%;
   text-align: center;
   padding: 15px;
   margin: 15px auto 30px auto;
   font-size: 30px;
-  // background-image: url("./static/images/faultline.jpg");
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  
-  background-color: #D89E84;
-  background-image: radial-gradient(#4E0C0F, #7C211A);
+  display: flex;
+  flex-direction: row;
+
+  .farSide {
+    align-self: flex-end;
+  }
+ 
   ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
@@ -42,8 +45,10 @@ header {
     background-color: #333;
     li {
       // display: inline;
+      background-color: #111;
       float: left;
       border-right: 1px solid #bbb;
+      height: 70px;
       a {
         text-decoration: none;
         color: white;
@@ -52,7 +57,7 @@ header {
         padding: 8px;
         padding: 14px 16px;
         &:hover{
-          background-color: #111;
+          background-color: rgb(17, 17, 17);
         }
       }
     }
@@ -61,5 +66,32 @@ header {
 
 main {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  .videoDiv{
+    h1{
+      text-align: center;
+    }
+    video{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  p{
+    text-align: center;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
