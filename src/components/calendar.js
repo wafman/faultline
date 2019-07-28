@@ -3,8 +3,16 @@ import React from 'react';
 class Calendar extends React.Component{
   render(){
     return (
-      <>
-      </>
+      <table>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+          </tr>
+
+        </tbody>
+      </table>
     )
   }
 }
