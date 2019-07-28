@@ -1,14 +1,17 @@
 import React from 'react';
+import Video from './video.js';
+import Intro from './intro.js';
 
 class Main extends React.Component{
   render(){
     return(
-      <>
-        <main>
-          <p>the magic will go here</p>
-        </main>
+  
+      <main>
+        <Video />
+        <Intro />
         
-      </>
+      </main>
+
     )
   }
 }
