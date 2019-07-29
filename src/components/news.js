@@ -4,8 +4,15 @@ class News extends React.Component{
   render(){
     return(
       <>
-        <p>this will be some announcements/news</p>
+      <h1>News && Announcements</h1>
+      <div className="news">
+        <article>
+          <h3>News Title</h3>
+          <p>News/announcement guts</p>
+        </article>
+      </div>
       </>
+      
     )
   }
 }
