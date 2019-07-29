@@ -13,6 +13,10 @@ body {
   background-color: #190509;
   color: #7C211A;
   font-family: Comic Sans MS;
+  padding: 15px;
+  h1{
+    text-align: center;
+  }
 }
 
 .bannerImg{
@@ -27,12 +31,12 @@ header {
   padding: 15px;
   margin: 15px auto 30px auto;
   font-size: 30px;
-  display: flex;
-  flex-direction: row;
+  // display: flex;
+  // flex-direction: row;
 
-  .farSide {
-    align-self: flex-end;
-  }
+  // .farSide {
+  //   // align-self: flex-end;
+  // }
  
   ul{
     position: fixed;
@@ -42,14 +46,14 @@ header {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    background-color: #333;
+    // background-color: #333;
     li {
       // display: inline;
       background-color: #111;
       float: left;
       border-right: 1px solid #bbb;
       height: 70px;
-      a {
+      a{
         text-decoration: none;
         color: white;
         text-align: center;
@@ -62,6 +66,10 @@ header {
       }
     }
   }
+
+  // .bookUs{
+  //   float: right;
+  // }
 }
 
 main {
@@ -71,57 +79,107 @@ main {
   justify-content: center;
   // align-items: center;
   align-content: center;
-  border: 5px solid yellow;
+  
 
   .videoDiv{
-    border: 5px solid green;
+    
     h1{
       text-align: center;
     }
-    video{
-      width: 50%;
+    .react-player{
+      
       height: auto;
       margin: 30px auto;
-      border: 1px solid white;
+      
     }
   }
 
   section {
-    border: 5px solid red;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 15px auto;
-    table{
-      border-collapse: collapse;
-      margin: 0px 30px;
-      tr{
-        border: 1px solid white;
-      }
-      th {
-        border: 1px solid white;
-        height: 30px;
-        text-align: center;
-        vertical-align: bottom;
-        padding: 15px;
-      }
-      td{
-        border: 1px solid white;
-        vertical-align: bottom;
-        padding: 15px;
-      }
-    }
+    
   }
 
   p{
     text-align: center;
   }
 
-  
+  .bookUsButton{
+    // padding: 15px;
+    height: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
 }
+
+table{
+  border-collapse: collapse;
+  margin: 15px auto;
+  tr{
+    border: 1px solid white;
+  }
+  th {
+    border: 1px solid white;
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 15px;
+  }
+  td{
+    border: 1px solid white;
+    vertical-align: bottom;
+    padding: 15px;
+  }
+}
+
+.aboutUs{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  .profileImg{
+    width: 200px;
+  }
+  article{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    p{
+      padding: 15px;
+    }
+  }
+}
+
+.news{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+  article{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    h3{
+      padding: 5px;
+    }
+    p{
+      padding: 5px;
+    }
+  }
+}
+
 
 footer {
   position: fixed;
+  margin: 30px auto 15px auto;
   bottom: 0;
   left: 0;
   width: 100%;
