@@ -14,14 +14,23 @@ export default class Header extends React.Component{
     };
     return(
       <header>
-        <ul>
-          <li><Link to="/" style={{textDecoration: 'none'}}><img src={require('../static/images/faultline.jpg')} alt="Home Button" className="bannerImg"></img></Link></li>
-          <li className="farSide" style={{textDecoration: 'none'}}><Link to="/about-us">About</Link></li> 
-          <li className="farSide" style={{textDecoration: 'none'}}><Link to="/news">News</Link></li>
-          <li className="farSide" style={{textDecoration: 'none'}}><Link to="/calendar">Calendar</Link></li>
-          {/* <li className="farSide" style={{textDecoration: 'none'}}><Link to="/media">Media</Link></li> */}
-          <li style={floatRight} ><a href="">Book Us</a></li>
-        </ul>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <Link to="/" style={{textDecoration: 'none'}} className="navbar-brand">Home</Link>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarColor02">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item active farSide" style={{textDecoration: 'none'}}><Link to="/about-us" className="nav-link">About</Link></li> 
+              <li className="nav-item active farSide" style={{textDecoration: 'none'}}><Link to="/news" className="nav-link">News</Link></li>
+              <li className="nav-item active farSide" style={{textDecoration: 'none'}}><Link to="/calendar" className="nav-link">Calendar</Link></li>
+              {/* <li className="farSide" style={{textDecoration: 'none'}}><Link to="/media">Media</Link></li> */}
+              <li style={floatRight} ><a href="">Book Us</a></li>
+            </ul>
+          </div>
+          
+        </nav>
+        
         
       </header>
     )

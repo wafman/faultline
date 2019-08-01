@@ -5,12 +5,17 @@ class Calendar extends React.Component{
     return (
       <>
       <h1>Calendar</h1>
-      <table>
+      <table className="table table-hover">
         <tbody>
           <tr>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Location</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Location</th>
+          </tr>
+          <tr>
+            <td>Thursday August 1 2019</td>
+            <td>6:00 pm</td>
+            <td>FOB -- Dupont, WA</td>
           </tr>
 
         </tbody>

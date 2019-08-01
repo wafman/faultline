@@ -4,7 +4,11 @@ class Footer extends React.Component{
   render(){
     return(
       <>
-        <footer>This production is brought to you by William Fritts</footer>
+        <footer>
+          <p>This production is brought to you by William Fritts</p>
+          <img src="x" alt="youtube link"></img>
+          <img src="x" alt="facebook link"></img>
+        </footer>
       </>
     )
   }
