@@ -9,14 +9,17 @@ export default class AboutUs extends React.Component{
   render(){
     return(
       <>
-      <h1>About Us</h1>
-      <div className="aboutUs">
-        <Hanisch />
-        <Cosorous />
-        <Coots />
-        <Guitar />
-        <Singer />
-      </div>
+        <center>
+          <h1>About Us</h1>
+        </center>
+        
+        <div className="aboutUs">
+          <Hanisch />
+          <Cosorous />
+          <Coots />
+          <Guitar />
+          <Singer />
+        </div>
       </>
       
   
