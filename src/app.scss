@@ -244,3 +244,12 @@ button {
   display: inline-block;
   width: 200px; height: 200px;
 }
+
+.centerHolder {
+  margin: 60px auto 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
