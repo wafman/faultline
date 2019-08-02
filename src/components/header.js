@@ -21,6 +21,8 @@ export default class Header extends React.Component{
               <li className="nav-item active farSide" style={{textDecoration: 'none'}}><Link to="/calendar" className="nav-link">Calendar</Link></li>
               {/* <li className="farSide" style={{textDecoration: 'none'}}><Link to="/media">Media</Link></li> */}
             </ul>
+            <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-youtube"></a>
             <a href="mailto:faultline05@gmail.com"><button type="button" id="myBtn" class="btn btn-primary btn-lg centerBtn">Book Us</button></a>
           </div>
         </nav>
