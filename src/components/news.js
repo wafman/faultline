@@ -4,13 +4,22 @@ class News extends React.Component{
   render(){
     return(
       <>
-      <h1>News && Announcements</h1>
-      <div className="news">
-        <article>
-          <h3>News Title</h3>
-          <p>News/announcement guts</p>
-        </article>
-      </div>
+        <center style={{margin: "75px"}}>
+            <h1>News && Announcements</h1>
+        </center>
+      
+        <div className="news">
+            <div className="outerNewsContainer">
+              <div className="innerNewsContainer">
+                <article>
+                  <h3>News Title</h3>
+                  <p>News/announcement guts</p>
+                </article>
+              </div>
+              
+            </div>
+          
+        </div>
       </>
       
     )

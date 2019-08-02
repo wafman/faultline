@@ -1,83 +1,76 @@
-/*
-color pallette generator on falutline image gives these colors to work with:
+// /*
+// color pallette generator on falutline image gives these colors to work with:
 
-Crimson- #D21710
-Sadle Brown: #4E0C0F
-Burly Wood: #D89E84
-Sadle Brown: #7C211A
-Sadle Brown: #190509
+// Crimson- #D21710
+// Sadle Brown: #4E0C0F
+// Burly Wood: #D89E84
+// Sadle Brown: #7C211A
+// Sadle Brown: #190509
 
-*/
+// */
 
-body {
-  background-color: #190509;
-  color: #7C211A;
-  font-family: Comic Sans MS;
-  padding: 15px;
-  h1{
-    text-align: center;
-  }
-}
+// body {
+//   background-color: #190509;
+//   color: #7C211A;
+//   font-family: Comic Sans MS;
+//   padding: 15px;
+//   h1{
+//     text-align: center;
+//   }
+// }
 
-.bannerImg{
-  height: 50px;
+// .bannerImg{
+//   height: 50px;
 
-}
+// }
 
-//horizontal styling nav bar inspired from W3schools
-header {
-  width: 100%;
-  text-align: center;
-  padding: 15px;
-  margin: 15px auto 30px auto;
-  font-size: 30px;
-  // display: flex;
-  // flex-direction: row;
+// //horizontal styling nav bar inspired from W3schools
+// header {
+//   width: 100%;
+//   text-align: center;
+//   padding: 15px;
+//   margin: 15px auto 30px auto;
+//   font-size: 30px;
 
-  // .farSide {
-  //   // align-self: flex-end;
-  // }
  
-  ul{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    // background-color: #333;
-    li {
-      // display: inline;
-      background-color: #111;
-      float: left;
-      border-right: 1px solid #bbb;
-      height: 70px;
-      a{
-        text-decoration: none;
-        color: white;
-        text-align: center;
-        display: block;
-        padding: 8px;
-        padding: 14px 16px;
-        &:hover{
-          background-color: rgb(17, 17, 17);
-        }
-      }
-    }
-  }
+//   ul{
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     list-style-type: none;
+//     padding: 0px;
+//     margin: 0px;
+//     overflow: hidden;
+ 
+//     li {
+     
+//       background-color: #111;
+//       float: left;
+//       border-right: 1px solid #bbb;
+//       height: 70px;
+//       a{
+//         text-decoration: none;
+//         color: white;
+//         text-align: center;
+//         display: block;
+//         padding: 8px;
+//         padding: 14px 16px;
+//         &:hover{
+//           background-color: rgb(17, 17, 17);
+//         }
+//       }
+//     }
+//   }
 
-  // .bookUs{
-  //   float: right;
-  // }
-}
+
+// }
 
 main {
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // align-items: center;
+
   align-content: center;
   
 
@@ -93,96 +86,170 @@ main {
       
     }
   }
+} //added this to test mixing bootstrap and manual css
 
-  section {
+//   section {
     
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 15px auto;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     margin: 15px auto;
     
-  }
+//   }
 
-  p{
-    text-align: center;
-  }
+//   p{
+//     text-align: center;
+//   }
 
-  .bookUsButton{
-    // padding: 15px;
-    height: 20px;
-    border-radius: 15px;
-    font-weight: bold;
-    font-size: 20px;
+//   .bookUsButton{
+
+//     height: 20px;
+//     border-radius: 15px;
+//     font-weight: bold;
+//     font-size: 20px;
     
-  }
+//   }
+// }
+
+// table{
+//   border-collapse: collapse;
+//   margin: 15px auto;
+//   tr{
+//     border: 1px solid white;
+//   }
+//   th {
+//     border: 1px solid white;
+//     height: 30px;
+//     text-align: center;
+//     vertical-align: bottom;
+//     padding: 15px;
+//   }
+//   td{
+//     border: 1px solid white;
+//     vertical-align: bottom;
+//     padding: 15px;
+//   }
+// }
+
+
+//   article{
+//     display: flex;
+//     flex-direction: row;
+//     margin: 15px;
+//     p{
+//       padding: 15px;
+//     }
+//   }
+// }
+
+// .news{
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   align-content: center;
+  
+//   article{
+//     display: flex;
+//     flex-direction: column;
+//     margin: 15px;
+//     h3{
+//       padding: 5px;
+//     }
+//     p{
+//       padding: 5px;
+//     }
+//   }
+// }
+
+
+
+
+body{
+  background-color: #2B3E50;
 }
 
-table{
-  border-collapse: collapse;
-  margin: 15px auto;
-  tr{
-    border: 1px solid white;
-  }
-  th {
-    border: 1px solid white;
-    height: 30px;
-    text-align: center;
-    vertical-align: bottom;
-    padding: 15px;
-  }
-  td{
-    border: 1px solid white;
-    vertical-align: bottom;
-    padding: 15px;
-  }
+.profileImg{
+  width: 200px;
 }
 
 .aboutUs{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  .profileImg{
-    width: 200px;
-  }
-  article{
-    display: flex;
-    flex-direction: row;
-    margin: 15px;
-    p{
-      padding: 15px;
-    }
-  }
 }
 
-.news{
+.news {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  
-  article{
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    h3{
-      padding: 5px;
-    }
-    p{
-      padding: 5px;
-    }
-  }
 }
 
+.bandCard{
+  margin: 30px;
+  text-align: center;
+  background-color: #D21710;
+}
 
 footer {
   position: fixed;
-  margin: 30px auto 15px auto;
+  // margin: 60px auto 15px auto;
   bottom: 0;
   left: 0;
+  height: 50px;
   width: 100%;
   text-align: center;
 }
 
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.push {
+  height: 50px;
+}
+
+a {
+  margin: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+button {
+  height: 50px;
+  margin-left: 30px;
+}
+
+.outerNewsContainer{
+  display: table-cell;
+  width: 500px;
+  height: 500px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.innerNewsContainer{
+  display: inline-block;
+  width: 200px; height: 200px;
+}
+
+.centerHolder {
+  margin: 60px auto 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}

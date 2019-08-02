@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Header />
+      <div className="wrapper">
       <Switch>
         <Route exact path='/' component={Main}/>
         <Route path='/about-us' component={AboutUs}/>
@@ -20,6 +21,8 @@ function App() {
         <Route path='/news' component={News} />
         <Route path='/calendar' component={Calendar}/>
       </Switch>
+      </div>
+      <div className="push"></div>
       <Footer />
     </>
   );
