@@ -166,7 +166,8 @@ main {
 
 
 body{
-  background-color: #2B3E50;
+  background-color: #7D1C16;
+  color: #33060F;
 }
 
 .profileImg{
@@ -192,17 +193,24 @@ body{
 .bandCard{
   margin: 30px;
   text-align: center;
-  background-color: #D21710;
+  background-color: #D5130C;
+  border: none;
 }
 
 footer {
   position: fixed;
+  margin-top: 30px;
   // margin: 60px auto 15px auto;
   bottom: 0;
   left: 0;
   height: 50px;
   width: 100%;
   text-align: center;
+  color: #CE8462;
+}
+
+footer p{
+  margin: 15px 0px;
 }
 
 .wrapper {
@@ -252,4 +260,29 @@ button {
   justify-content: center;
   align-content: center;
   text-align: center;
+}
+
+.centerHolder p{
+  margin: 15px 30px;
+}
+
+// .info{
+//   margin: 30px auto;
+// }
+
+.headerNav{
+  background-color: #100407;
+}
+
+.navImg{
+  width: 100px;
+}
+
+a{
+  color: #CE8462;
+}
+
+a button{
+  background-color: #CE8462;
+  border: 1px solid #D5130C;
 }
