@@ -22,7 +22,9 @@ function App() {
         <Route path='/calendar' component={Calendar}/>
       </Switch>
       </div>
-      <div className="push"></div>
+      <div className="wrapper">
+        <div className="push"></div>
+      </div>
       <Footer />
     </>
   );
