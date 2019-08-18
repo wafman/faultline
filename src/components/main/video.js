@@ -6,7 +6,7 @@ class Video extends React.Component{
     return(
       <>
         <ReactPlayer 
-            url='https://youtu.be/8Adx6P20Er8'
+            url='https://youtu.be/21hUkHnk8Fk'
             className='react-player'
             // playing
             controls
