@@ -7,7 +7,7 @@ class Footer extends React.Component{
         <div class="wrapper">
           <div class="push"></div>
         </div>
-        <footer>
+        <footer className="headerNav">
           <p>This production is brought to you by William Fritts</p>
         </footer>
       </>
